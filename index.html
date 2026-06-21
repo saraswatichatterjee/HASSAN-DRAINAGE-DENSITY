@@ -185,7 +185,7 @@ html, body, #map {
             abstract.show = function () {
                 this._div.classList.remove("abstract");
                 this._div.classList.add("abstractUncollapsed");
-                this._div.innerHTML = 'Peripheral and southern areas show high drainage density in red/orange indicating closely spaced streams and high runoff potential, while scattered central blue patches show low drainage density indicating sparse stream networks and better infiltration.';
+                this._div.innerHTML = 'Blue areas have high Drainage Density meaning closely spaced streams with rapid runoff and poor infiltration, while red areas have low Drainage Density meaning widely spaced streams with slow runoff and better groundwater recharge.';
         };
         abstract.addTo(map);
         var zoomControl = L.control.zoom({
